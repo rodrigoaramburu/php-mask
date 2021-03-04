@@ -1,0 +1,25 @@
+{
+    "name": "rodrigoaramburu/php-mask",
+    "description": "Biblioteca para utilizar máscaras simples em strings",
+    "type": "library",
+    "require-dev": {
+        "pestphp/pest": "^1.0"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Rodrigo Aramburu",
+            "email": "rodrigoaramburu@gmail.com"
+        }
+    ],
+    "require": {},
+
+    "autoload": {
+        "classmap": [
+            "src/"
+        ]
+    },
+    "scripts": {
+        "pest": "./vendor/bin/pest"
+    }
+}
